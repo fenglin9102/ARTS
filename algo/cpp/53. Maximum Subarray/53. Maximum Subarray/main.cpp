@@ -7,9 +7,10 @@
 //
 
 #include <iostream>
+#include "hHeader/Maximum Subarray.hpp"
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Solution().test();
     return 0;
 }

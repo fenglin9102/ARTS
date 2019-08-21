@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		516E363F230D08E70022A87A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 516E363E230D08E70022A87A /* main.cpp */; };
+		516E3648230D09DF0022A87A /* Maximum Subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 516E3647230D09DF0022A87A /* Maximum Subarray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		516E363B230D08E70022A87A /* 53. Maximum Subarray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "53. Maximum Subarray"; sourceTree = BUILT_PRODUCTS_DIR; };
 		516E363E230D08E70022A87A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		516E3646230D09DF0022A87A /* Maximum Subarray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "Maximum Subarray.hpp"; sourceTree = "<group>"; };
+		516E3647230D09DF0022A87A /* Maximum Subarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Maximum Subarray.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,18 @@
 			isa = PBXGroup;
 			children = (
 				516E363E230D08E70022A87A /* main.cpp */,
+				516E3645230D09DF0022A87A /* hHeader */,
 			);
 			path = "53. Maximum Subarray";
+			sourceTree = "<group>";
+		};
+		516E3645230D09DF0022A87A /* hHeader */ = {
+			isa = PBXGroup;
+			children = (
+				516E3646230D09DF0022A87A /* Maximum Subarray.hpp */,
+				516E3647230D09DF0022A87A /* Maximum Subarray.cpp */,
+			);
+			path = hHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516E3648230D09DF0022A87A /* Maximum Subarray.cpp in Sources */,
 				516E363F230D08E70022A87A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
